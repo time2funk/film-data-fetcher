@@ -1,0 +1,35 @@
+{
+  "name": "imdb-data-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./node_modules/mocha/bin/mocha -R mocha-jenkins-reporter --timeout 20000 \"./tests/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/time4work/fetch-service.git"
+  },
+  "author": "pointer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/time4work/fetch-service/issues"
+  },
+  "homepage": "https://github.com/time4work/fetch-service#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.3",
+    "express-react-views": "^0.10.5",
+    "mocha": "^5.2.0",
+    "mocha-jenkins-reporter": "^0.4.0",
+    "mysql2": "^1.6.1",
+    "node-fetch": "^2.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "redis": "^2.8.0",
+    "serve-favicon": "^2.5.0",
+    "zmq": "^2.15.3"
+  }
+}
